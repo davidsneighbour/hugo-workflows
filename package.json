@@ -24,5 +24,8 @@
       "@dnb-org/remark-config"
     ]
   },
-  "slug": "dnb-hugo-workflows"
+  "slug": "dnb-hugo-workflows",
+  "dependencies": {
+    "trim": "^1.0.1"
+  }
 }
