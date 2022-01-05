@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/dnb-hugo-workflows",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "A collection of Github Actions/Workflows to optimise your work with GoHugo.",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
