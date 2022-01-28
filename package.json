@@ -8,10 +8,10 @@
   "repository": "dnb-org/dnb-hugo-workflows",
   "bugs": "https://github.com/dnb-org/dnb-hugo-workflows/issues",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.4.5",
-    "@dnb-org/standard-version-config": "^3.4.4",
-    "@dnb-org/textlint-config": "^3.4.6",
-    "@dnb-org/tools": "^3.4.6"
+    "@dnb-org/remark-config": "^3.5.2",
+    "@dnb-org/standard-version-config": "^3.5.1",
+    "@dnb-org/textlint-config": "^3.5.2",
+    "@dnb-org/tools": "^3.5.1"
   },
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
