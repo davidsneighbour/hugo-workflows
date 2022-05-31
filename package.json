@@ -1,17 +1,17 @@
 {
-  "name": "@dnb-org/dnb-hugo-workflows",
+  "name": "@davidsneighbour/hugo-workflows",
   "version": "0.0.3",
   "license": "MIT",
   "description": "A collection of Github Actions/Workflows to optimise your work with GoHugo.",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
-  "homepage": "https://github.com/dnb-org/dnb-hugo-workflows#readme",
-  "repository": "dnb-org/dnb-hugo-workflows",
-  "bugs": "https://github.com/dnb-org/dnb-hugo-workflows/issues",
+  "homepage": "https://github.com/davidsneighbour/hugo-workflows",
+  "repository": "davidsneighbour/hugo-workflows",
+  "bugs": "https://github.com/davidsneighbour/hugo-workflows/issues",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.5.2",
-    "@dnb-org/standard-version-config": "^3.5.1",
-    "@dnb-org/textlint-config": "^3.5.2",
-    "@dnb-org/tools": "^3.5.1"
+    "@davidsneighbour/remark-config": "^4.0.1",
+    "@davidsneighbour/standard-version-config": "^4.0.1",
+    "@davidsneighbour/textlint-config": "^4.0.1",
+    "@davidsneighbour/tools": "^4.0.1"
   },
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
@@ -21,10 +21,10 @@
   "private": true,
   "remarkConfig": {
     "plugins": [
-      "@dnb-org/remark-config"
+      "@davidsneighbour/remark-config"
     ]
   },
-  "slug": "dnb-hugo-workflows",
+  "slug": "hugo-workflows",
   "dependencies": {
     "trim": "^1.0.1"
   }
